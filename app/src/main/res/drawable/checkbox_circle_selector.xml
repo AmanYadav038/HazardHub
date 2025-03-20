@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Checked State -->
+    <item android:state_checked="true" android:drawable="@drawable/checkbox_checked_circle" />
+    <!-- Unchecked State -->
+    <item android:state_checked="false" android:drawable="@drawable/checkbox_unchecked_circle" />
+</selector>

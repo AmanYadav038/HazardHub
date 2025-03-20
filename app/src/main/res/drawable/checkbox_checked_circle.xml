@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Circular background -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/light_blue"/> <!-- Background color -->
+            <size android:width="24dp" android:height="24dp"/> <!-- Size of the circle -->
+        </shape>
+    </item>
+    <item android:drawable="@drawable/baseline_check_24" android:gravity="center"/>
+</layer-list>

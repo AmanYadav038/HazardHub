@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/calamity_news"
+        android:icon="@drawable/calamity_need_icon"
+        android:title="calamity_needs"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/lost_found"
+        android:icon="@drawable/lost_person_icon"
+        android:title="LostAnd Found"
+        app:showAsAction="always|withText" />
+</menu>

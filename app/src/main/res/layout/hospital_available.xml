@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginEnd="16dp">
+
+            <TextView
+                android:id="@+id/hospital_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sample Hospital"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/light_blue" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sample Address, Line 2, Pincode:"
+                android:layout_marginTop="4dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/numberOfBedsIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of beds : 200"
+                android:layout_marginTop="4dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/operatingHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--:-- to --:--"
+                android:layout_marginTop="4dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/emergencyServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emergency Services Available"
+                android:layout_marginTop="4dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/callBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:backgroundTint="@color/red"
+            app:cornerRadius = "10dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

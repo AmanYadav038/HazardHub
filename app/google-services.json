@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178925033138",
+    "project_id": "hazardhub-gfg",
+    "storage_bucket": "hazardhub-gfg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178925033138:android:62eced820ed30b56439bab",
+        "android_client_info": {
+          "package_name": "com.example.hazardhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAJF5AEZhiIwHBaEiJkyrEUy06NiGOUv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
